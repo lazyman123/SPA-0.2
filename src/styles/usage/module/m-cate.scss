@@ -1,0 +1,17 @@
+.cate_contanier{
+  height:100%;
+  ul{
+    height:100%;
+    width:100%;
+    @include flexbox();
+    @include flex-wrap(wrap);
+    li{
+      width:50%;
+      height:25%;
+      img{
+        height:100%;
+        width:100%;
+      }
+    }
+  }
+}

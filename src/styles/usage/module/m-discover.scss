@@ -1,0 +1,225 @@
+.d-header{
+  box-sizing: border-box;
+  width: 100%;
+  @include flexbox();
+  z-index: 100;
+  background-color: white;
+  height: .4rem;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  box-shadow: 3px 3px 3px #eee;
+  font-size:.16rem;
+  line-height: .36rem;
+  justify-content: center;
+  align-items: center;
+  border-bottom:.01rem solid #ddd;
+  img{
+    width: 70%;
+    height: 70%;
+  }
+
+  .d-u1{
+    @include flex();
+    padding-left:.08rem;
+  }
+  .d-u2{
+    @include flex(6);
+    text-align: center;
+    color: green;
+    padding-left: .18rem;
+  }
+  .d-u3{
+    @include flex();
+  }
+  .d-u4{
+    @include flex();
+  }
+}
+.d-container{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  @include flexbox();
+  @include flex-direction(column);
+
+  .d-search{
+    // box-sizing: border-box;
+    margin: .07rem auto;
+    padding: .02rem .04rem;
+    border-radius:.04rem;
+    background: #e1e2e4;
+    height: .25rem;
+    width: 96%;
+    border-bottom:.01rem solid #ddd;
+
+    @include flexbox();
+    .one{
+      display: flex;
+      padding-left: .8rem;
+      flex: 1;
+      font-size: .12rem;
+      a{
+        padding-top: .05rem;
+        padding-right: .05rem;
+        display: block;
+        width: .17rem;
+        height:.17rem;
+        opacity: 1;
+        img{
+          width: 100%;
+          height:100%;
+        }
+      }
+      input{
+        border: none;
+        background: #e1e2e4;
+        color:#000;
+        font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+        font-size: .12rem;
+      }
+    }
+  }
+
+  .swiper-container{
+    width:100%;
+    height: 2rem;
+    .swiper-wrapper{
+      width: 100%;
+      height: 100%;
+      .swiper-slide{
+        width:100%;
+        height: 100%;
+        img{
+          width:100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .scroll-wrapper{
+    width: 100%;
+    height: 1.3rem;
+  .di{
+    margin-top: .1rem;
+    display: inline-block;
+    white-space: nowrap;
+    .hezi{
+      display: inline-block;
+      height: 1.3rem;
+      padding: .05rem;
+      dl{
+        display: inline-block;
+        margin:.01rem;
+        dt{
+          width: .9rem;
+          height:.9rem;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+        dd{
+          text-align: center;
+          color: #ccc;
+          font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+          font-size: .12rem;
+          margin-top: .05rem;
+        }
+      }
+    }
+  }
+  }
+
+  .tiao{
+    width: 100%;
+    height: .16rem;
+    background-color: #f6f6f6;
+  }
+
+  .d-news{
+    width: 100%;
+    height: .4rem;
+    text-align: center;
+    line-height:.4rem;
+    font-size: .16rem;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    border-bottom:.01rem solid #f6f6f6;
+  }
+  .new-list{
+    width: 100%;
+    .new-list-l{
+      width: 100%;
+      height: 2.8rem;
+      padding: .1rem .1rem 0 .1rem;
+      font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+      border-bottom:.01rem solid #f6f6f6;
+      @include flex-direction(column);
+      @include flexbox();
+      .new-title{
+        @include ellipsis();
+        color:#2b2b2b;
+        font-size: .16rem;
+        padding-bottom:.05rem;
+      }
+      .new-d{
+        color: #555;
+        padding-bottom:.05rem;
+        font-size: .14rem;
+      }
+      .new-img{
+        width: 100%;
+        height: 1.8rem;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .new-ping{
+        width: 100%;
+        margin-top:.1rem;
+        height: .34rem;
+        ul{
+          @include flexbox();
+          @include justify-content(flex-end);
+          padding-right: .1rem;
+          li{
+            margin: .02rem .08rem;
+            img{
+              width: .18rem;
+              height: .18rem;
+              margin-right: .02rem;
+            }
+            span{
+              font-size: .1rem;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+.down{
+  width: 100%;
+  height: 1rem;
+  background-color: #eee;
+  border-radius: .1rem;
+  text-align: center;
+  padding-top: .16rem;
+  img{
+    width: .2rem;
+    height: .2rem;
+  }
+  span{
+    color:green;
+    font-size: .12rem;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+
+  }
+}
+.d-bai{
+  width: 100%;
+  height: .4rem;
+}
+
+}

@@ -1,0 +1,75 @@
+module.exports={
+  "data":
+    {
+      "baike":[
+      {
+      "id":"1",
+      "name":"百科",
+      "title":"365天，可以每天不重样的开放式三明治 | 懒人料理",
+      "content":"<p>开放式三明治，</p><p>也许是这个季节最赏心悦目的料理了。</p>",
+      "image1":"./images/kkk1_03.png",
+      "image2":"./images/g1_02.png",
+      "image3":"./images/g2_03.png",
+      "image4":"./images/g3_03.png",
+      "image5":"./images/eee_02.png",
+      "image6":"./images/ww_02.png",
+      "content2":"<p>之所以叫做“开放式三明治”，</p><p>是因为这种三明治只有一片面包。</p>",
+      "content3":"<p>上面摆满各种食物，</p><p>也许是这个季节最赏心悦目的料理了。</p>",
+      "content4":"<p>到底是谁那么聪明想到这样吃的？</p><p>答案:丹麦人</p>",
+      "content5":"<p>感觉可以一个人</p><p>全部吃光的节奏</p>",
+      "end":"<p>天天果园用户忆十一</p>"
+      },
+      {
+      "id":"2",
+      "name":"百科",
+      "title":"原来土豆君这么优秀，这么多年我们都吃错了！ | 毁三观",
+      "content":"<p>说到土豆，</p><p>大家的第一反应是:</p>",
+      "image1":"images/g8_02.png",
+      "image2":"images/g5_02.png",
+      "image3":"images/g6_02.png",
+      "image4":"images/g7_02.png",
+      "image6":"./images/ww_02.png",
+      "image5":"./images/eee_02.png",
+      "content2":"<p>土豆是淀粉呀，</p><p>淀粉容易胖呀！</p>",
+      "content3":"<p>土豆君哭晕在厨房里....</p><p>人家可是“世界公认最伟大食物之一”啊！</p>",
+      "content4":"<p>到底是谁那么聪明想到这样吃的？</p><p>答案:丹麦人</p>",
+      "content5":"<p>感觉可以一个人</p><p>全部吃光的节奏</p>",
+      "end":"<p>天天果园用户sai叔</p>"
+    },
+      {
+      "id":"3",
+      "name":"百科",
+      "title":"听说国外的孩子，万圣节都会收到这颗太妃糖果 | 开动了",
+      "content":"<p>万圣节快到了，</p><p>各种万圣节没事又开始“群魔乱舞”了。</p>",
+      "image1":"./images/kkk1_03.png",
+      "image2":"./images/g1_02.png",
+      "image3":"./images/g2_03.png",
+      "image4":"./images/g3_03.png",
+      "image5":"./images/eee_02.png",
+      "image6":"./images/ww_02.png",
+      "content2":"<p>每到万圣节，</p><p>在国外的超市里，</p>",
+      "content3":"<p>总能发现一种看起来很美</p><p>但是又自带神秘气息的甜品，</p>",
+      "content4":"<p>对，他就是太妃糖苹果Toffee Apple。</p><p>太妃糖苹果是英国万圣节的传统食品，</p>",
+      "content5":"<p>在日本漫画也经常出现，</p><p>因此也经常被误认为是日式食物，在二次元被称为“苹果糖”.</p>",
+      "end":"<p>天天果园用户艾菲er</p>"
+    },
+      {
+      "id":"4",
+      "name":"百科",
+      "title":"一到秋冬就想吃高热量的东西？怎样吃才能不长肉啊啊啊~ | 营养师笔记",
+      "content":"<p>说到土豆，</p><p>大家的第一反应是:</p>",
+      "image1":"images/g8_02.png",
+      "image2":"images/g5_02.png",
+      "image3":"images/g6_02.png",
+      "image4":"images/g7_02.png",
+      "image6":"./images/ww_02.png",
+      "image5":"./images/eee_02.png",
+      "content2":"<p>土豆是淀粉呀，</p><p>淀粉容易胖呀！</p>",
+      "content3":"<p>土豆君哭晕在厨房里....</p><p>人家可是“世界公认最伟大食物之一”啊！</p>",
+      "content4":"<p>到底是谁那么聪明想到这样吃的？</p><p>答案:丹麦人</p>",
+      "content5":"<p>感觉可以一个人</p><p>全部吃光的节奏</p>",
+      "end":"<p>天天果园用户sai叔</p>"
+      }
+      ]
+    }
+}

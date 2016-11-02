@@ -1,0 +1,272 @@
+.cart-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .goods_header {
+    height: 0.36rem;
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    .goods_title {
+      flex: 1;
+      font-size: 18px;
+      color: #71b844;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .goods_edit {
+      position: absolute;
+      top: 0.09rem;
+      right: 0;
+      padding: 0 0.06rem;
+      color: #71b844;
+      font-size: 14px;
+    }
+  }
+  .nogoodsbox {
+    flex: 1;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    .nogoods {
+      .yous {
+        font-size: 12px;
+        color: #777;
+      }
+      .go_index {
+        font-size: 18px;
+        color: #ff9400;
+      }
+    }
+  }
+  .goodsbox {
+    flex: 1;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    .boxheader {
+      height: 0.3rem;
+      display: flex;
+      .goodsqingdan {
+        padding-left: 0.08rem;
+        font-size: 12px;
+        color: #777;
+        height: 0.3rem;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .blank {
+        flex: 1;
+      }
+      .goods_weight {
+        font-size: 12px;
+        color: #777;
+        padding-right: 0.1rem;
+        height: 0.3rem;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .goodscontent {
+      flex: 1;
+      .notlast{
+        border-bottom: 1px solid #ccc;
+      }
+      .goods_info {
+        display: flex;
+        width: 100%;
+        height: 0.9rem;
+        box-sizing: border-box;
+        background: #fff;
+        padding: 0.1rem 0;
+        .goods1 {
+          display: flex;
+          justify-content: center;
+          align-content: center;
+          width:0.3rem;
+          box-sizing: border-box;
+          padding: 0 0.05rem;
+          &.nosele {
+            color: #aaa;
+          }
+          &.selected {
+            color: #ff9400;
+          }
+          span {
+            display: flex;
+            align-items: center;
+          }
+        }
+        .goods_detail {
+          flex: 1;
+          display: flex;
+          img {
+            width: 0.7rem;
+            height: 0.7rem;
+          }
+          ul {
+            flex: 1;
+            box-sizing: border-box;
+            padding-left: 0.1rem;
+            display: flex;
+            flex-direction: column;
+            .goods_name {
+              font-size: 12px;
+              font-weight: bold;
+            }
+            .goods_volume {
+              color: #777;
+              font-size: 12px;
+            }
+            .goods_sale {
+              display: flex;
+              align-items: flex-end;
+              flex: 1;
+              color: red;
+              span {
+                font-size: 12px;
+                display: inline-block;
+                @include scalemin(0.9);
+              }
+              i {
+                font-style: normal;
+                font-size: 16px;
+                line-height: 21px;
+              }
+              b {
+                font-weight: normal;
+                font-size: 12px;
+              }
+            }
+          }
+        }
+        .goods_countbox {
+          display: flex;
+          flex-direction: column;
+          padding: 0 0.06rem;
+          .goods_volume1 {
+            font-size: 12px;
+            flex: 1;
+            text-align: right;
+            @include scalemin(0.9);
+          }
+          .goods_count {
+            #goods_count {
+              padding: 0 0.08rem;
+            }
+            .goods_sub {
+              width: 0.2rem;
+              height: 0.2rem;
+              display: inline-block;
+              border-radius: 0.2rem;
+              text-align: center;
+              font-size: 16px;
+              line-height: 0.18rem;
+              border: 1px solid #eee;
+              i {
+                color: #ff9400;
+                display: inline-block;
+                transform: scaleX(2) scaleY(1.2);
+              }
+            }
+            .goods_add {
+              width: 0.2rem;
+              height: 0.2rem;
+              display: inline-block;
+              border-radius: 0.2rem;
+              text-align: center;
+              font-size: 14px;
+              line-height: 0.18rem;
+              border: 1px solid #eee;
+              i {
+                color: #ff9400;
+                display: inline-block;
+                transform: scaleX(1.6) scaleY(1.6);
+              }
+            }
+          }
+        }
+      }
+    }
+    .pay{
+      height: 0.4rem;
+      background: #fff;
+      box-sizing: border-box;
+      border-top: 2px solid #ccc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .selectall{
+        height: 0.4rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 0 0.05rem;
+        span{
+          display: flex;
+          align-items: center;
+        }
+       .goodsnocolor{
+           color:#666;
+           padding-left: .04rem;
+           font-size: 12px;
+         }
+      }
+      .total{
+        flex: 1;
+        height: .4rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        box-sizing: border-box;
+        padding-right: 0.2rem;
+        .delcart{
+          color:#777;
+          font-size:12px;
+        }
+        span{
+          font-size:12px;
+          color:#ff9400;
+          @include scalemin(0.9);
+        }
+        b{
+          font-weight: normal;
+          color:#ff9400;
+          font-size:14px;
+        }
+      }
+      .paybutton{
+        height: 0.4rem;
+        padding: 0 0.26rem;
+        text-align: center;
+        line-height: .4rem;
+        background: #bfbfbf;
+        color:#fff;
+        &.havegoodsselect{
+          background: #ff9400;
+        }
+      }
+    }
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2) {
+  .gooodsbox {
+    border-bottom: 0.5px solid #ccc;
+  }
+}
+.selected{
+ color: #ff9400;
+}
+.noselect{
+  color:#ccc;
+}
